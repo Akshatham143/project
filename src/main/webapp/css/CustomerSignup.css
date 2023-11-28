@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+    * {
+	padding: 0;
+	margin: 0;
+}
+
+    form{
+        border: 2px solid;
+       
+        width: 30%;
+        height: 70%;
+       margin-left:60%;
+        border-radius: 1em;
+        background-color: white;
+
+    }
+    .header{
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -10px;
+        border-radius: 10px;
+    }
+
+    .td1{
+        text-align: right;
+        position: relative;
+        /* left: -1em; */
+    }
+
+    .cancel{
+        background-color: red;
+         position: relative; 
+         left: -4em; top: 1em;
+          border: white; height: 2em;
+          width: 7em; border-radius: 1em;
+          
+    }
+
+    .reg{
+        position: relative;
+         left: 1em;
+            background-color:cornflowerblue;
+           border: white;
+            height: 2em; width: 7em; 
+            top: 1em;
+             border-radius: 1em;
+    }
+    .bodycentre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+      
+        
+    }
+     input{
+            background-color: #FBFFDC;
+        }
+    
+    body{
+	background-image: url(https://cdn.pixabay.com/photo/2018/02/06/21/43/dog-3135777_1280.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100vh;
+}
+::placeholder{
+	position: relative;
+	left: 5px;
+	color: black;
+	font-weight: 400;
+}

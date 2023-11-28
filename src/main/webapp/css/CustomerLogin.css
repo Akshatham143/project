@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.login{
+	height: 100%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative; 
+	 top:5%;
+	right:18%;
+
+}
+
+
+
+
+.tab {
+
+	border: 2px solid black;
+	background-color: white;
+	padding: 60px;
+	margin-left:110%;
+}
+
+input[id="user"] {
+	border-color: black;
+	border-width: 1px;
+	border-radius: 3px;
+	
+}
+input{
+	
+}
+
+input[id="password"] {
+	border-color: black;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+body{
+	
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/28/10/05/kitten-1285341_1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+::placeholder{
+	position: relative;
+	left: 10px;
+	color: black;
+	font-weight: 400;
+}
